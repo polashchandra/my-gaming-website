@@ -311,10 +311,8 @@ span{
 footer{
     background: #0B0223;
     min-height: 400px;
-    margin-top: 100px;
-    
-    
-  }
+    margin-top: 100px;    
+}
   .footer-logo{
     display: flex;
     color: #FFF;
@@ -388,4 +386,57 @@ footer{
         margin-top: 10px;
     }
     /*navbar end*/
+    .banner-section{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .banner-img img {
+        width: 400px;
+        
+    }
+    .banner-img{
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner-content{
+       
+        width: 100%;
+        padding-left: 2px;
+        padding-top: 2px;
+        background-size: 100%;
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .banner-content h2{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .banner-text{
+        margin-left: 30px;
+        margin-top: 50px;
+       
+    }
+    .btn1{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    
+    .btn2{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+  
+    /* banner styles end here  */
 }
